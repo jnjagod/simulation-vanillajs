@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background: #424249;
+    height: 100px;
+    display: flex;
+    color: #fffdfc;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+header>img {
+    position: absolute;
+}
+header>h1{
+    margin-left: 100px;
+}
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
+#expense {
+    background: #efe8e1;
+    height: auto;
+}
+#bill {
+    background: #54D2E5;
+}
+.add {
+    background: #424249;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    font-family: 'Righteous';
+    border: none;
+    height: 30px;
+}
+h1, h3 {
+    font-family: 'Righteous';
+}
+p, li{
+    font-family: 'Roboto';
+    list-style: none;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    height: 30px;
+}
+.box{
+    border-radius: 5px;
+    padding: 0px 20px 20px;
+    height: auto;
+}
